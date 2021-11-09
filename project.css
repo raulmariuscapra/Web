@@ -1,0 +1,62 @@
+*{
+    background-color: rgb(161, 144, 187);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.20em;
+    color:rgb(228, 180, 24);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    background-image: url(/Images/160-1606533_how-to-become-a-full-stack-web-developer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:1em;
+    height: 12em;
+    font-size:2em;
+    align-items: center;
+    
+}
+
+p{
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+    background-color:rgba(102, 51, 153, 0.411);
+    padding: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    margin-top: 0.1em;
+    margin-bottom:0em;   
+}
+
+ol{
+    display: flex;
+    font-weight: 550;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;/*
+    border-width: 0.15em;
+    border-style: dotted;
+    border-color:rgb(208, 255, 80);
+    border-radius: 1em;*/
+    background-color:rgba(102, 51, 153, 0.411);
+    margin:0em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+a{
+    text-decoration: none;
+    background-color:rgba(102, 51, 153, 0.411);
+}
+
+a:hover{
+    background-color:salmon;
+    color:sienna;
+}
+
+a:active{
+    background-color:wheat;
+    color:red;
+}

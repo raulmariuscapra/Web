@@ -1,0 +1,101 @@
+*{
+    font-family: 'PT Serif', serif;
+    --main_color:#ececec;
+    --secondary_color:#BB6DEC;
+    --accent_color:rgb(147, 129, 158);
+    --text_color:#1e092b;
+    --shadow_color:rgb(75, 50, 90);
+    --light_color:rgb(221, 188, 240);
+    background-color:var(--main_color);
+    color:var(--text_color);
+}
+
+.topbar{
+    display:flex;
+    width:100%;
+    height: 4em;
+    position:fixed;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom-style:solid;
+    border-width: 0.125em;
+    border-color:var(--secondary_color);
+    top: 0%;
+    left: 0%;
+    background-color: var(--main_color);
+    overflow-x:hidden;
+}
+
+.topbar a{
+    text-decoration: none;
+    background-color: var(--main_color);
+    color:var(--secondary_color);
+    font-weight: bold;
+}
+
+.topbar a:hover{
+    font-size: 1.20em;
+    transition-duration: 0.5s;
+}
+
+.topbar a{
+    font-size: 1em;
+    transition-duration: 0.5s;
+}
+
+.topbar_img{
+    height:3em;
+    width: auto;
+}
+
+h1{
+    text-align:center;
+    color:var(--secondary_color);
+}
+
+.section{
+    width:100%;
+    border: solid var(--secondary_color) 0.125em;
+    border-radius: 2%;
+    box-shadow: 2px 2px 3px 2px var(--shadow_color),
+    -1px -1px 3px 2px var(--light_color);
+    margin-bottom:3em;
+    overflow:hidden;
+}
+
+.section h2{
+    padding-left:2em;
+    color:var(--secondary_color);
+}
+
+.section p{
+    padding-left: 1em;
+    font-size:1.25em;
+}
+
+.photo_me{
+    height: 15em;
+    width: 15em;
+    border-radius:50%;
+    overflow:hidden;
+}
+
+.photo{
+    display:flex;
+    justify-content:space-around;
+    
+}
+.photo h2{
+    align-self: center;
+}
+
+.section a,p{
+    background-color: var(--main_color);
+}
+
+@media (max-width: 600px) {
+    .photo{
+        flex-wrap:wrap;
+    }
+}
